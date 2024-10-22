@@ -1,0 +1,98 @@
+# CodeIgniter Application Directories
+application/cache/*
+!application/cache/index.html
+application/logs/*
+!application/logs/index.html
+!application/*/.htaccess
+
+application1/cache/*
+!application1/cache/index.html
+application1/logs/*
+!application1/logs/index.html
+!application1/*/.htaccess
+
+# Configuration Files
+application/config/development
+application/config/testing
+application/config/production
+application/config/config.php
+application/config/database.php
+
+application1/config/development
+application1/config/testing
+application1/config/production
+application1/config/config.php
+application1/config/database.php
+
+# User Guide
+user_guide/*
+user_guide/.buildinfo
+user_guide/searchindex.js
+user_guide/objects.inv
+
+# Upload Directory
+upload/*
+!upload/index.html
+
+# Web Resources
+web_resources/dist/css/*
+web_resources1/dist/css/*
+web_resources/dist/js/*
+web_resources1/dist/js/*
+
+# Assets
+Assets1/js/*
+Assets1/libs/*
+!Assets1/index.html
+
+# System Directory (if you want to ignore system files)
+system/*
+!system/index.html
+
+# IDE & Editor Files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+nbproject/
+.project
+.settings/
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Node Modules & Package Files
+node_modules/
+package-lock.json
+yarn.lock
+
+# Temporary Files
+*.tmp
+*.temp
+*.swp
+*~
+
+# Database
+*.sqlite
+*.db
+.mysql_history
+
+# Environment Files
+.env
+.env.development
+.env.production
+.env.testing
+
+# Keep index.html files
+!index.html
+!*/index.html
+
+# Keep .htaccess files
+!.htaccess
+!*/.htaccess
